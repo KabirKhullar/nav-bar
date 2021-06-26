@@ -180,7 +180,7 @@ ul{
         transform: translateX(0%);
     }
         #img1{
-    width:98.75vw;
+    width:100vw;
     height:100vh;
     display:flex;
     justify-content: center;
@@ -190,7 +190,7 @@ ul{
     }
 
     #img2{
-    width:98.75vw;
+    width:100vw;
     height:100vh;
     display:flex;
     background-image: url(back-img6.jpg);
@@ -202,7 +202,7 @@ ul{
 /*back-images*/
 @media screen and (max-width: 574px){
     #img1{
-    width:98.75vw;
+    width:100vw;
     height:100vh;
     display:flex;
     justify-content: center;
@@ -212,7 +212,7 @@ ul{
     }
 
     #img2{
-    width:98.75vw;
+    width:100vw;
     height:100vh;
     display:flex;
     background-image: url(back-img4.jpg);
@@ -259,4 +259,3 @@ ul{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
-
