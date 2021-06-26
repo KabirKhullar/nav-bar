@@ -14,15 +14,6 @@
     background-size: cover;
 }
 
-#img2{
-    width:98.75vw;
-    height:100vh;
-    display:flex;
-    background-image: url(back-img2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /*navbar*/
 nav{
     display: flex;
@@ -189,14 +180,6 @@ ul{
     background-size: cover;
     }
 
-    #img2{
-    width:100vw;
-    height:100vh;
-    display:flex;
-    background-image: url(back-img6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
 }
 
 /*back-images*/
@@ -207,15 +190,6 @@ ul{
     display:flex;
     justify-content: center;
     background-image: url(back-img3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-
-    #img2{
-    width:100vw;
-    height:100vh;
-    display:flex;
-    background-image: url(back-img4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
