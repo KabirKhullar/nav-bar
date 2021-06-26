@@ -6,7 +6,7 @@
  /*images*/
 #img1{
     width:98.75vw;
-    height:100vh;
+    height:92vh;
     display:flex;
     justify-content: center;
     background-image: url(back-img.jpg);
@@ -169,7 +169,7 @@ ul{
     }
     #img1{
     width:100vw;
-    height:100vh;
+    height:92vh;
     display:flex;
     justify-content: center;
     background-image: url(back-img5.jpg);
@@ -189,7 +189,7 @@ ul{
     }
     #img1{
     width:100vw;
-    height:100vh;
+    height:92vh;
     display:flex;
     justify-content: center;
     background-image: url(back-img3.jpg);
