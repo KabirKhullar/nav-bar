@@ -3,6 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    overflow-x: hidden; /*To hide the box from scrolling*/
+}
+
  /*images*/
 #img1{
     width:98.75vw;
@@ -108,11 +113,6 @@ ul{
     transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 8px;
-}
-
 .footer-col ul li {
     font-size: 15px;
     text-transform: capitalize;
@@ -123,11 +123,6 @@ ul{
     display: block;
     font-weight: 600;
     transition: all 0.3s ease;
-}
-
-.footer-col ul li :hover{
-    color: #ffffff;
-    padding-left: 8px;
 }
 
 .footer{
@@ -143,6 +138,9 @@ ul{
 }
 
 @media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden; /*To hide the box from scrolling*/
+    }
     .nav-links{
         position: absolute;
         right: 0px;
@@ -175,9 +173,6 @@ ul{
     background-image: url(back-img5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    }
-        body{
-        overflow-x: hidden; /*To hide the box from scrolling*/
     }
 
 }
@@ -236,4 +231,3 @@ ul{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
-
