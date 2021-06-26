@@ -184,6 +184,9 @@ ul{
 
 /*back-images*/
 @media screen and (max-width: 574px){
+    body{
+        overflow-x: hidden; /*To hide the box from scrolling*/
+    }
     #img1{
     width:100vw;
     height:100vh;
